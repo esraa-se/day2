@@ -27,6 +27,8 @@ function nextSlide() {
   );
   let nextIndex = (activeIndex + 1) % slides.length;
   showSlide(nextIndex);
+function sayHello() {
+  console.log("Hello, World!");
 }
 
 
