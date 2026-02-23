@@ -97,11 +97,7 @@ h6 {
 .navbar-collapse.show li a:hover {
   color: #000;
 }
-.navbar-collapse.show li {
-  padding: 10px;
-  margin-left: 50px;
-  list-style: none;
-}
+
 .home {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
