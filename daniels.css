@@ -93,13 +93,7 @@ h6 {
   padding: 20px 0;
   z-index: 999;
 }
-.navbar-collapse.show li a {
-  color: #999;
-  text-decoration: none;
-  padding: 0 0.5rem;
-  font-size: medium;
-  font-weight: bolder;
-}
+
 .navbar-collapse.show li a:hover {
   color: #000;
 }
