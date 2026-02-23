@@ -21,7 +21,9 @@ function showSlide(index) {
   slides[index].classList.add("active");
   buttons[index].classList.add("active");
 }
-
+function sayHello() {
+  console.log("Hello, World!");
+}
 
 
 //////////////////////////////////////////////////////////////////////////////////////////
