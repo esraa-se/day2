@@ -21,7 +21,13 @@ function showSlide(index) {
   slides[index].classList.add("active");
   buttons[index].classList.add("active");
 }
-
+function nextSlide() {
+  let activeIndex = Array.from(slides).findIndex((slide) =>
+    slide.classList.contains("active")    
+  );
+  let nextIndex = (activeIndex + 1) % slides.length;
+  showSlide(nextIndex);
+}
 
 
 //////////////////////////////////////////////////////////////////////////////////////////
