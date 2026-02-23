@@ -93,21 +93,11 @@ h6 {
   padding: 20px 0;
   z-index: 999;
 }
-.navbar-collapse.show li a {
-  color: #999;
-  text-decoration: none;
-  padding: 0 0.5rem;
-  font-size: medium;
-  font-weight: bolder;
-}
+
 .navbar-collapse.show li a:hover {
   color: #000;
 }
-.navbar-collapse.show li {
-  padding: 10px;
-  margin-left: 50px;
-  list-style: none;
-}
+
 .home {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
